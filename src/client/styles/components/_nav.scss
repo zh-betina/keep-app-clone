@@ -23,10 +23,23 @@
 
     &__right{
       margin: 1.5rem 1.2rem 0 0;
+        &--view-icon-box{
+          img:nth-child(2){
+            visibility: hidden;
+          }
+          .nav__view--icon{
+            display: inline-flex;
+            height: $list-view-size;
+            width: auto;
+          }
+        }
         &--user-box{
           width: 40px;
           height: 40px;
             .nav__user--icon{
+              position: absolute;
+              right: 0.92rem;
+              top: 1.7rem;
               width: inherit;
               height: inherit;
             }

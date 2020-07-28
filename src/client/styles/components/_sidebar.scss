@@ -1,0 +1,33 @@
+.aside{
+  border: solid 2px $color-grey-light;
+  height: 100vh;
+    &__sidebar{
+      display: flex;
+      flex-direction: column;
+      padding: 3.8rem 0 0 1.5rem;
+        button{
+          border-style: none;
+          box-shadow: none;
+          background-color: $color-white;
+          text-align: left;
+            &:first-child{
+              & img{
+                width: $notes-icon-size;
+              }
+            }
+            &:nth-child(2){
+              & img{
+                width: $reminder-icon-size;
+              }
+            }
+            &:nth-child(3){
+              & img{
+                width: $settings-icon-size;
+              }
+            }
+            & img{
+              height: auto;
+            }
+        }
+    }
+}
