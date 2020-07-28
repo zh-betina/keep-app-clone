@@ -1,21 +1,21 @@
-body.body{
+.body{
   display: grid;
   grid-template-areas:
   'nav nav nav'
   'sidebar main main'
   'sidebar main main';
-  grid-template-rows: 6.4rem 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 6.4rem repeat(2, 1fr);
+  grid-template-columns: repeat(3 1fr);
 }
 
-nav.nav{
+.nav{
   grid-area: nav;
 }
 
-aside.aside{
+.aside{
   grid-area: sidebar;
 }
 
-main.main{
+.main{
   grid-area: main;
 }

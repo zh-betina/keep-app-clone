@@ -18,6 +18,12 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
+        test: /\.html$/i,
+        use:[{
+          loader: 'html-loader'
+        }]
+      },
+      {
         test: /\.scss$/,
         use: [{
           loader: 'style-loader'
@@ -30,7 +36,7 @@ module.exports = {
         }],
       },
       {
-        test: /\.(png|jpe?g|svg|gif)$/i,
+        test: /\.(png|svg|jpg|gif)$/,
         use: [
           {
             loader: 'file-loader'

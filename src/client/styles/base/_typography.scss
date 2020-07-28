@@ -1,3 +1,13 @@
 body.body{
   font-family: $noto-sans-jp;
 }
+
+.nav{
+  &__left{
+    .nav__logo{
+      &--text{
+        font-size: $logo-font-size;
+      }
+    }
+  }
+}
