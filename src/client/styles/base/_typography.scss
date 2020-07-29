@@ -1,3 +1,8 @@
+body.body{
+  font-family: $noto-sans-jp;
+  color: $color-grey-dark;
+}
+
 .nav{
   &__left{
     .nav__logo{
