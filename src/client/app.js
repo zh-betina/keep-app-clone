@@ -9,3 +9,11 @@ import notes from './views/media/icons/notes.svg';
 import user from './views/media/icons/user.png';
 import list from './views/media/icons/list.png';
 import grid from './views/media/icons/grid.png';
+
+import { detectEnterKey } from './js/detectEnter.js';
+import { saveNote } from './js/saveNote.js';
+
+export {
+  detectEnterKey,
+  saveNote
+}

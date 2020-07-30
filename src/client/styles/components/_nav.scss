@@ -14,8 +14,9 @@
               left: 1.1rem;
               font-size: $hamb-menu-size;
               font-weight: 800;
+              transition: all .4s;
             }
-        }
+          }
         .nav__logo{
           margin: 1.2rem 0 0 5.8rem;
         }
