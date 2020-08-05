@@ -1,7 +1,7 @@
 .aside{
   border: solid 2px $color-border;
   height: 100vh;
-    &__sidebar{
+    .sidebar{
       display: flex;
       flex-direction: column;
       padding: 1.8rem 0 0 0;

@@ -12,8 +12,10 @@ import grid from './views/media/icons/grid.png';
 
 import { detectEnterKey } from './js/detectEnter.js';
 import { saveNote } from './js/saveNote.js';
+import { displayNote } from './js/displayNote.js';
 
 export {
   detectEnterKey,
-  saveNote
+  saveNote,
+  displayNote
 }
