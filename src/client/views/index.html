@@ -34,13 +34,14 @@
     </aside>
     <main class="main">
       <div class="input">
-        <textarea onkeydown="Client.detectEnterKey(event)" placeholder="Take a note..." class="main__input--field"></textarea>
+        <textarea onkeydown="Client.detectKey(event)" placeholder="Take a note..." class="main__input--field"></textarea>
+        <span class="input__counter"></span>
       </div>
       <section class="notes">
         <div class="note">
-          <p class="note">testing</p>
+          <div class="note__txt">testing</div>
         </div>
-        <!--submitted notes go here in div with class="section__note"-->
+        <!--submitted notes go here in div with class="note"-->
       </section>
     </main>
   </body>

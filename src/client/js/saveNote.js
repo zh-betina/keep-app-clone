@@ -1,4 +1,5 @@
 import { displayNote } from './displayNote.js';
+
 function saveNote(){
   const textarea = document.querySelector('textarea');
   let textareaValue;

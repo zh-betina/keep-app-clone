@@ -14,8 +14,8 @@ body.body{
 }
 
 .aside{
-  &__sidebar{
-    &--btn{
+  .sidebar{
+    &__btn{
       font-size: $btn-font-size;
     }
   }
@@ -28,6 +28,15 @@ body.body{
         &::placeholder{
           font-size: $placeholder-font-size;
         }
+    }
+  }
+}
+
+.notes{
+  .note{
+    &__txt{
+      font-size: $note-txt-font-size;
+      padding: .5rem;
     }
   }
 }

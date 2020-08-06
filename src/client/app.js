@@ -10,12 +10,14 @@ import user from './views/media/icons/user.png';
 import list from './views/media/icons/list.png';
 import grid from './views/media/icons/grid.png';
 
-import { detectEnterKey } from './js/detectEnter.js';
+import { detectKey } from './js/detectKey.js';
 import { saveNote } from './js/saveNote.js';
 import { displayNote } from './js/displayNote.js';
+import { charCount } from './js/charCount.js';
 
 export {
-  detectEnterKey,
+  detectKey,
   saveNote,
-  displayNote
+  displayNote,
+  charCount
 }
