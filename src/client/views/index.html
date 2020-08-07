@@ -7,39 +7,41 @@
   </head>
   <body class="body">
     <nav class="nav">
-      <div class="nav__left">
-        <div class="nav__left--hamb-menu">
-          <span class="nav__hamb-menu--icon">≡</span>
+      <div class="nav__left-side">
+        <div class="hamb-menu">
+          <span class="icon--hamb-menu">≡</span>
         </div>
-        <div class="nav__logo">
-          <h1 class="nav__logo--text">Keep</h1>
+        <div class="logo">
+          <h1 class="txt--logo">Keep</h1>
         </div>
       </div>
-      <div class="nav__right">
-        <div class="nav__right--view-icon-box">
-          <img class="nav__view--icon" src="./media/icons/list.png" alt="Display icon">
-          <img class="nav__view--icon" src="./media/icons/grid.png" alt="Display icon">
+      <div class="nav__right-side">
+        <div class="view__icons">
+          <img class="icon--view" src="./media/icons/list.png" alt="Display icon">
+          <img class="icon--view" src="./media/icons/grid.png" alt="Display icon">
         </div>
-        <div class="nav__right--user-box">
-          <img class="nav__user--icon" src="./media/icons/user.png" alt="User icon">
+        <div class="nav__right-side--user">
+          <img class="icon--user" src="./media/icons/user.png" alt="User icon">
         </div>
       </div>
     </nav>
     <aside class="aside">
       <div class="sidebar">
-        <button type="button" class="sidebar__btn"><img src="./media/icons/notes.svg">Notes</button>
-        <button type="button" class="sidebar__btn"><img src="./media/icons/reminder.png">Reminders</button>
-        <button type="button" class="sidebar__btn"><img src="./media/icons/settings.svg">Settings</button>
+        <button type="button" class="btn--sidebar txt--btn"><img src="./media/icons/notes.svg">Notes</button>
+        <button type="button" class="btn--sidebar txt--btn"><img src="./media/icons/reminder.png">Reminders</button>
+        <button type="button" class="btn--sidebar txt--btn"><img src="./media/icons/settings.svg">Settings</button>
       </div>
     </aside>
     <main class="main">
       <div class="input">
-        <textarea onkeydown="Client.detectKey(event)" placeholder="Take a note..." class="main__input--field"></textarea>
+        <textarea onkeydown="Client.detectKey(event)" placeholder="Take a note..." class="input__field txt--input"></textarea>
         <span class="input__counter"></span>
       </div>
       <section class="notes">
         <div class="note">
-          <div class="note__txt">testing</div>
+          <div class="txt--note">
+            testingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtestingtesting
+          </div>
         </div>
         <!--submitted notes go here in div with class="note"-->
       </section>

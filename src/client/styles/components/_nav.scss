@@ -5,45 +5,26 @@
   justify-content: space-between;
   box-sizing: border-box;
 
-    &__left{
+    &__left-side{
       margin: 0 0 0 1.7rem;
-        &--hamb-menu{
-            .nav__hamb-menu--icon{
-              position: absolute;
-              top: .1rem;
-              left: 1.1rem;
-              font-size: $hamb-menu-size;
-              font-weight: 800;
-              transition: all .4s;
-            }
-          }
-        .nav__logo{
-          margin: 1.2rem 0 0 5.8rem;
+    }
+
+    .logo{
+      margin: 1.2rem 0 0 5.8rem;
+    }
+
+    &__right-side{
+      margin: 1.5rem 1.2rem 0 0;
+
+        &--user{
+          width: 40px;
+          height: 40px;
         }
     }
 
-    &__right{
-      margin: 1.5rem 1.2rem 0 0;
-        &--view-icon-box{
-          img:nth-child(2){
-            visibility: hidden;
-          }
-          .nav__view--icon{
-            display: inline-flex;
-            height: $list-view-size;
-            width: auto;
-          }
-        }
-        &--user-box{
-          width: 40px;
-          height: 40px;
-            .nav__user--icon{
-              position: absolute;
-              right: 0.92rem;
-              top: 1.7rem;
-              width: inherit;
-              height: inherit;
-            }
-        }
+    .view__icons{
+      img:nth-child(2){
+        visibility: hidden;
+      }
     }
 }
