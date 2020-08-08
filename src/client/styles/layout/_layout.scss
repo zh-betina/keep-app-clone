@@ -20,6 +20,27 @@
   grid-area: main;
 }
 
-.grid{
-  
+.flex-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    &>div{
+      flex-grow: 1;
+      min-width: 20rem;
+      max-width: 30rem;
+    }
+}
+
+.flex-list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    &>div{
+      width: 100%;
+      box-sizing: border-box;
+    }
+}
+
+.hidden{
+  visibility: hidden;
 }

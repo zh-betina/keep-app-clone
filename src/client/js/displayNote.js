@@ -4,7 +4,7 @@ function displayNote(note){
   notes.prepend(newEl);
   newEl.classList.add('note');
 
-  newEl.innerHTML = `<div class="note__txt">${note.txt}</div>`;
+  newEl.innerHTML = `<div class="txt--note">${note.txt}</div>`;
 };
 
 export { displayNote };
