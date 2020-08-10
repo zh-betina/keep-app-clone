@@ -1,10 +1,19 @@
-function changeView(){
-  const icon = document.querySelector("icon--"+"list");
+function changeView(mode){
+  const iconList = document.querySelector('.icon--list');
+  const iconGrid = document.querySelector('.icon--grid');
+  const notes = document.querySelector('.notes');
 
-    document.querySelector('.icon--list').classList.add('hidden');
-    document.querySelector('.icon--grid').classList.remove('hidden');
-    document.querySelector('.notes').classList.remove('flex-grid');
-    document.querySelector('.notes').classList.add('flex-list');
+  if(mode=="list"){
+    iconList.classList.add('hidden');
+    iconGrid.classList.remove('hidden');
+    notes.classList.remove('flex-grid');
+    notes.classList.add('flex-list');
+  } else {
+    iconGrid.classList.add('hidden');
+    iconList.classList.remove('hidden');
+    notes.classList.remove('flex-list');
+    notes.classList.add('flex-grid');
+  }
 }
 
 export { changeView };
