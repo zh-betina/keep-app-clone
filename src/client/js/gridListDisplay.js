@@ -8,7 +8,7 @@ function changeView(mode){
     iconGrid.classList.remove('hidden');
     notes.classList.remove('flex-grid');
     notes.classList.add('flex-list');
-  } else {
+  }else{
     iconGrid.classList.add('hidden');
     iconList.classList.remove('hidden');
     notes.classList.remove('flex-list');

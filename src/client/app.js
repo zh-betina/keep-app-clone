@@ -15,11 +15,13 @@ import { saveNote } from './js/saveNote.js';
 import { displayNote } from './js/displayNote.js';
 import { charCount } from './js/charCount.js';
 import { changeView } from './js/gridListDisplay.js';
+import { menuDisplay } from './js/menuDisplay.js';
 
 export {
   detectKey,
   saveNote,
   displayNote,
   charCount,
-  changeView
+  changeView,
+  menuDisplay
 }
