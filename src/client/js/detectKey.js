@@ -6,7 +6,8 @@ function detectKey(e){
   let i = input.length;
 
   if(e.key == "Enter"){
-    return saveNote()
+    charCount(0);
+    return saveNote();
   }else{
     return charCount(i);
   }

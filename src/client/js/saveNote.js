@@ -1,4 +1,5 @@
 import { displayNote } from './displayNote.js';
+import { charCount } from './charCount.js';
 function saveNote(){
   const textarea = document.querySelector('textarea');
   let textareaValue;
@@ -10,6 +11,7 @@ function saveNote(){
   console.log(textareaValue);
   //Clear the textarea:
   textarea.value = "";
+  charCount(0);
   return displayNote(textareaValue);
 }
 

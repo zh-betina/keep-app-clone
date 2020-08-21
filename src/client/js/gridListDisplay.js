@@ -4,8 +4,10 @@ function changeView(mode){
   const notes = document.querySelector('.notes');
 
   if(mode=="list"){
+    iconList.classList.remove('visible');
     iconList.classList.add('hidden');
     iconGrid.classList.remove('hidden');
+    iconGrid.classList.add('visible');
     notes.classList.remove('flex-grid');
     notes.classList.add('flex-list');
   }else{

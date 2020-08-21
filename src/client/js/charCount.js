@@ -4,9 +4,10 @@ function charCount(i){
     return counter.innerHTML = `${i}/500`;
   }else{
     const textarea = document.querySelector('.input__field');
-    // TODO: take the value of the input, make an array,
-    //split the characters and pop all items that have index
-    //bigger than 499
+    const toBeCut = [textarea.value];
+    const cutText = toBeCut[0].split("", 500);
+    const finalText = cutText.join('');
+    textarea.value = finalText;
     return counter.innerHTML = `The limit of 500 characters has been reached!`;
   }
 }
