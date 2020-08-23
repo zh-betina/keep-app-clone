@@ -11,8 +11,10 @@ function changeView(mode){
     notes.classList.remove('flex-grid');
     notes.classList.add('flex-list');
   }else{
+    iconGrid.classList.remove('visible')
     iconGrid.classList.add('hidden');
     iconList.classList.remove('hidden');
+    iconList.classList.add('visible');
     notes.classList.remove('flex-list');
     notes.classList.add('flex-grid');
   }
