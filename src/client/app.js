@@ -1,3 +1,4 @@
+//imports
 import './styles/main.scss';
 
 import html from './views/index.html';
@@ -17,6 +18,7 @@ import { charCount } from './js/charCount.js';
 import { changeView } from './js/gridListDisplay.js';
 import { menuDisplay } from './js/menuDisplay.js';
 
+//exports
 export {
   detectKey,
   saveNote,

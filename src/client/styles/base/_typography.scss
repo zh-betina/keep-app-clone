@@ -25,4 +25,10 @@
     max-height: 18rem;
     overflow-y: scroll;
   }
+
+  &--bulb-placeholder{
+    font-size: $note-txt-font-size;
+    text-align: center;
+    padding-top: 1.5rem;
+  }
 }

@@ -1,7 +1,7 @@
 .notes{
   box-sizing: border-box;
   margin: 3rem .5rem .5rem .5rem;
-    &>div{
+    .note{
       border-style: solid;
       border-color: grey;
       margin: 2rem;
@@ -14,7 +14,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-   &>div{
+   .note{
      min-width: 5rem;
      max-width: 40rem;
    }
@@ -25,7 +25,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-    &>div{
+    .note{
     min-width: 95%;
   }
 }
