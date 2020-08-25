@@ -15,5 +15,3 @@ function menuDisplay(){
 }
 
 export { menuDisplay };
-
-// TODO: fix KEEP logo and hambmenu fonts change
