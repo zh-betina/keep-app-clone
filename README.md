@@ -1,26 +1,20 @@
-##### Deployed:
-
-#### Google Keep (clone) web-app:
+# Google Keep App Clone
 
 For learning purposes using:  
 * HTML, CSS/SCSS, JavaScript,
 * Webpack,
-* npm,  
+* npm  
 
 and icons from [icons8](https://icons8.com).
 
-#### How to:
-
-1) Firstly:
+## How to run:
 
 `npm install`
 
-2) Then for:
+Development config: 
 
-<u>Development-mode:</u>
+`npm run dev`
 
-`to be added`
-
-<u>Production-mode:</u>
+Production config:
 
 `to be added`
