@@ -16,6 +16,9 @@ html, body, h1, p, img{
   display: none;
 }
 
+.invisible {
+  visibility: hidden;
+}
 .visible{
   display: inline-block;
 }
