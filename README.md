@@ -1,7 +1,9 @@
 # Google Keep App Clone
 
+Live preview available [RIGHT HERE](https://zh-betina.github.io/keep-app-clone/)<br>
+<br>
 For learning purposes using:  
-* HTML, CSS/SCSS, JavaScript,
+* HTML, CSS/SCSS (flex and grid previews), JavaScript,
 * Webpack,
 * npm  
 
@@ -15,6 +17,6 @@ Development config:
 
 `npm run dev`
 
-Production config:
+Production:
 
-`to be added`
+`npm run prod`
